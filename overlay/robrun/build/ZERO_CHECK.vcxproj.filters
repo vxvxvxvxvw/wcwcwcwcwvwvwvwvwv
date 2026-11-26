@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\PC\Downloads\pulzar-hypervisor-main\pulzar-hypervisor-main\overlay\robrun\build\CMakeFiles\ac1530c989036d46507bdd3be0d76eb4\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1EE56AE6-E604-3697-A9F4-B1F3454CA7C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

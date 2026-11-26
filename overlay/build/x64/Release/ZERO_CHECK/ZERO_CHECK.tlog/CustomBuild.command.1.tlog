@@ -1,0 +1,10 @@
+^C:\USERS\PC\DOWNLOADS\PULZAR-HYPERVISOR-MAIN\PULZAR-HYPERVISOR-MAIN\OVERLAY\BUILD\CMAKEFILES\E88DCC0943A4596F4B95F33DA735B8D6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/PC/Downloads/pulzar-hypervisor-main/pulzar-hypervisor-main/overlay -BC:/Users/PC/Downloads/pulzar-hypervisor-main/pulzar-hypervisor-main/overlay/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/PC/Downloads/pulzar-hypervisor-main/pulzar-hypervisor-main/overlay/build/fn_overlay.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
